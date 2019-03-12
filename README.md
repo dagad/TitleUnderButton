@@ -22,7 +22,7 @@ pod 'TitleUnderButton'
 
 ## Author
 
-dagad, dagad@estsoft.com
+dagad, dagad906@gmail.com
 
 ## License
 
