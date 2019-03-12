@@ -1,0 +1,6 @@
+framework module Pods_TitleUnderButton_Example {
+  umbrella header "Pods-TitleUnderButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
