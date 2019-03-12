@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TitleUnderButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TitleUnderButton.'
+  s.summary          = 'TitleUnderButton is subclass of UIButton.'
   s.swift_version    = '4.2'
 
 # This description is used to generate tags and improve search results.
