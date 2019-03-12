@@ -33,6 +33,8 @@
 		2368DCA5DF4BC217CF7A54452BF12DFA /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B667DFD8E75D7AB4C30355EA4EFB0 /* Filter.swift */; };
 		2B6F7A6A22386D4900CA2BFD /* TitleUnderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F7A6922386D4900CA2BFD /* TitleUnderButton.swift */; };
 		2B6F7A6B22386D4900CA2BFD /* TitleUnderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F7A6922386D4900CA2BFD /* TitleUnderButton.swift */; };
+		2B6F7A6D22386E6800CA2BFD /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F7A6C22386E6800CA2BFD /* Image.xcassets */; };
+		2B6F7A6E22386ED300CA2BFD /* TitleUnderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F7A6922386D4900CA2BFD /* TitleUnderButton.swift */; };
 		2CFA351DD99BDAEB0A7A49F21880AB6F /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1176D15EB10164D6B728ABDCF64DF44F /* BeGreaterThanOrEqualTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		2E4FFB1124F266D95FF3D8595BD6990A /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE425BCFF433709EF78844B6E3F6B53 /* BeAKindOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3222E34AFE2ACD47560ED2E3D48C3B7B /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB91EE2B34BCD507A8EAF07F231C380 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -263,6 +265,7 @@
 		25B26A98F04E23CACE8BF6A277E65DA5 /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
 		2A3A5E4E6B75811D0569A77DAFDCE4B8 /* TitleUnderButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TitleUnderButton-umbrella.h"; sourceTree = "<group>"; };
 		2B6F7A6922386D4900CA2BFD /* TitleUnderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitleUnderButton.swift; path = TitleUnderButton/Classes/TitleUnderButton.swift; sourceTree = "<group>"; };
+		2B6F7A6C22386E6800CA2BFD /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = TitleUnderButton/Image.xcassets; sourceTree = "<group>"; };
 		2CDF2FCC274EC588D7E3495020698791 /* TitleUnderButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TitleUnderButton.modulemap; sourceTree = "<group>"; };
 		2E8052367487C857440067EC33D18F05 /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
 		2FC8E310A0A5BB8BB56CBD3D44C4D7FD /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
@@ -762,6 +765,7 @@
 				2B6F7A6922386D4900CA2BFD /* TitleUnderButton.swift */,
 				C3866C372866FBAB6B72F22D43370331 /* Pod */,
 				A7EEB506B738027CAFC329EBFAE93DAC /* Support Files */,
+				2B6F7A6C22386E6800CA2BFD /* Image.xcassets */,
 			);
 			name = TitleUnderButton;
 			path = ../..;
@@ -1140,6 +1144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6F7A6D22386E6800CA2BFD /* Image.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1337,6 +1342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FC9BC767B70DC1940F9C8BB48E3BA09 /* TitleUnderButton-dummy.m in Sources */,
+				2B6F7A6E22386ED300CA2BFD /* TitleUnderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
